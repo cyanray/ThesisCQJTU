@@ -56,6 +56,11 @@
 % 设置公式的编号格式，让公式编号带上章节序号
 \numberwithin{equation}{section}
 
+% 让图、表和公式的编号计数器（counter）在每个新section重置
+\numberwithin{equation}{section}
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
 % 设置题注与图片的间距
 \setlength{\abovecaptionskip}{0pt}
 
