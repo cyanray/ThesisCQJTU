@@ -16,7 +16,10 @@
 双击 **模板.dotx** 即可创建一个基于该模板的文档，或者直接在 **模板.docx** 上进行创作。
 
 ## LaTex 版本
-LaTeX 模板基于 CTeX 宏集制作，需要使用 XeLaTeX 进行编译。由于默认采用 Adobe 字体，请先安装 `AdobeFonts` 目录中的四个字体，安装后才能正确编译。
+LaTeX 模板基于 CTeX 宏集制作，需要使用 XeLaTeX 进行编译。
+
+由于默认采用 Adobe 字体，请先安装 `AdobeFonts` 目录中的四个字体，安装后才能正确编译。(Win10 用户请右键选择 **"为全部用户安装"**，否则会找不到字体)
+
 或者修改 `thesis-cqjtu.cls` 文件第二行，找到 `fontset=adobe`，修改为 `fontset=windows`，就可以在 Windows 上编译了。采用 Adobe 字体的好处是在 PDF 阅读器中字体更清晰，阅读体验更好。
 
 ### ⚠特别注意
